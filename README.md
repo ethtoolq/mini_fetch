@@ -1,29 +1,29 @@
 # Mini Fetch
 
-Mini Fetch — это простой Python скрипт для просмотра информации о системе прямо в терминале.
+Mini Fetch — a simple Python script to view system information right in the terminal.
 
-Скрипт работает на **Linux и Windows** и не требует установки дополнительных библиотек.
+The script works on Linux and Windows and does not require installing additional libraries.
 
-## Возможности
+## Features
 
-Mini Fetch показывает:
+Mini Fetch shows:
 
-* операционную систему
-* hostname
-* kernel / system version
-* CPU
-* использование RAM
-* uptime системы
+    operating system
+    hostname
+    kernel / system version
+    CPU
+    RAM usage
+    system uptime
 
-Также выводится небольшой ASCII логотип системы и цветной текст.
+A small ASCII system logo and colored text are also displayed.
 
-## Требования
+## Requirements
 
-* Python 3
+    Python 3
 
-Дополнительные библиотеки устанавливать не нужно.
+No additional libraries required.
 
-## Запуск
+## Usage
 
 Linux:
 
@@ -37,7 +37,7 @@ Windows:
 python mini_fetch.py
 ```
 
-## Пример вывода
+## Example output
 
 ```
       ______       os     : Linux 6.5
@@ -48,20 +48,20 @@ python mini_fetch.py
                    uptime : 3h 15m
 ```
 
-## Поддерживаемые системы
+## Supported systems
 
-* Linux
-* Windows
+    Linux
+    Windows
 
-## Цель проекта
+## Project purpose
 
-Этот проект сделан для практики:
+This project is made for practice:
 
-* Python
-* CLI программ
-* получения системной информации
-* работы с Linux и Windows
+    Python
+    CLI programs
+    obtaining system information
+    working with Linux and Windows
 
-## Лицензия
+## License
 
 MIT
