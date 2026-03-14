@@ -5,7 +5,7 @@ import sys
 
 system = platform.system()
 
-# проверка поддержки цвета
+# checking color support
 USE_COLOR = sys.stdout.isatty()
 
 GREEN = "\033[92m" if USE_COLOR else ""
